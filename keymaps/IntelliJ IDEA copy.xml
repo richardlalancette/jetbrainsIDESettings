@@ -1,0 +1,146 @@
+<keymap version="1" name="IntelliJ IDEA copy" parent="Mac OS X">
+  <action id="AddToFavoritesPopup" />
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="ctrl a" />
+  </action>
+  <action id="AppCode.Debugger.AttachToRunningProcess">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="meta alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ChangeSignature">
+    <keyboard-shortcut first-keystroke="meta f6" />
+    <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="Console.Open" />
+  <action id="Console.TableResult.EditValue">
+    <keyboard-shortcut first-keystroke="alt enter" />
+  </action>
+  <action id="DatabaseView.PropertiesAction">
+    <keyboard-shortcut first-keystroke="enter" />
+  </action>
+  <action id="Debugger.AddToWatch">
+    <keyboard-shortcut first-keystroke="meta f11" />
+  </action>
+  <action id="DecrementWindowHeight" />
+  <action id="DecrementWindowWidth" />
+  <action id="Diff.NextConflict">
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="Diff.PreviousConflict">
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="DomCollectionControl.Edit" />
+  <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
+  <action id="EditSource" />
+  <action id="EditorLineEnd">
+    <keyboard-shortcut first-keystroke="end" />
+  </action>
+  <action id="EditorLineEndWithSelection">
+    <keyboard-shortcut first-keystroke="shift end" />
+  </action>
+  <action id="EditorLineStart">
+    <keyboard-shortcut first-keystroke="home" />
+  </action>
+  <action id="EditorLineStartWithSelection">
+    <keyboard-shortcut first-keystroke="shift home" />
+  </action>
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="meta right" />
+  </action>
+  <action id="EditorNextWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="meta left" />
+  </action>
+  <action id="EditorPreviousWordWithSelection">
+    <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="shift alt f" />
+    <keyboard-shortcut first-keystroke="alt f7" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="f2" />
+  </action>
+  <action id="GotoNextBookmark">
+    <keyboard-shortcut first-keystroke="meta f10" />
+  </action>
+  <action id="GotoNextError" />
+  <action id="GotoPreviousBookmark">
+    <keyboard-shortcut first-keystroke="shift meta f10" />
+  </action>
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="alt o" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="shift alt s" />
+  </action>
+  <action id="IncrementWindowWidth" />
+  <action id="LocalHistory.ShowHistory">
+    <mouse-shortcut keystroke="shift meta alt button1" />
+  </action>
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
+  <action id="NextOccurence">
+    <keyboard-shortcut first-keystroke="ctrl meta down" />
+  </action>
+  <action id="NextTemplateParameter" />
+  <action id="PlaybackLastMacro">
+    <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="PopupHector" />
+  <action id="PreviousOccurence">
+    <keyboard-shortcut first-keystroke="ctrl meta up" />
+  </action>
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="ResizeToolWindowLeft" />
+  <action id="ResizeToolWindowRight" />
+  <action id="ResizeToolWindowUp" />
+  <action id="RunConfiguration">
+    <keyboard-shortcut first-keystroke="alt f6" />
+  </action>
+  <action id="ShowBookmarks" />
+  <action id="ShowPopupMenu" />
+  <action id="StepInto">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="StepOut">
+    <keyboard-shortcut first-keystroke="shift f11" />
+  </action>
+  <action id="StepOver">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="shift meta alt f10" />
+  </action>
+  <action id="ToggleBookmarkWithMnemonic" />
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift meta alt h" />
+  </action>
+  <action id="context.save" />
+</keymap>

@@ -1,0 +1,12 @@
+<application>
+  <component name="XcodeNewProjectMetadata">
+    <lastUsedFolder path="$USER_HOME$/commons/sandbox/AE-Scripts/TranslationKeyer" />
+    <string key="gameType" value="SceneKit" />
+    <string key="organizationName" value="You.i" />
+    <string key="languageChoice" value="Swift" />
+    <boolean key="hasUnitTests" value="true" />
+    <string key="bundleIdentifierPrefix" value="youi" />
+    <boolean key="hasUITests" value="false" />
+    <string key="commandLineType" value="C++" />
+  </component>
+</application>

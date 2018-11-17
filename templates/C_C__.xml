@@ -1,0 +1,26 @@
+<templateSet group="C/C++">
+  <template name="yilog" value="YI_LOG$LOG_LEVEL$(TAG,&quot;$text1$: %s %d %f&quot;, $string$, $decimal$, $float$);" description="YI_LOG expression" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG_LEVEL" expression="enum(&quot;I&quot;,&quot;D&quot;,&quot;W&quot;,&quot;E&quot;,&quot;F&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="text1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="decimal" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="float" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="yiloggmlvec3" value="YI_LOG$LOG_LEVEL$(TAG,&quot;$vectorname$: x:%f y:%f z:%f&quot;, $vectornamecopy$.x, $vectornamecopy$.y, $vectornamecopy$.z);" description="YI_LOG expression for glm::vec3" toReformat="false" toShortenFQNames="true">
+    <variable name="LOG_LEVEL" expression="enum(&quot;I&quot;,&quot;D&quot;,&quot;W&quot;,&quot;E&quot;,&quot;F&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="vectorname" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="vectornamecopy" expression="vectorname" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+  <template name="ifclipboard" value="if ($clipboardvalue$)&#10;{&#10;    $SELECTION$&#10;    $END$&#10;}&#10;" description="if for the current clipboard value" toReformat="true" toShortenFQNames="true">
+    <variable name="clipboardvalue" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OC_STATEMENT_CPP" value="true" />
+    </context>
+  </template>
+</templateSet>

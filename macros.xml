@@ -1,0 +1,127 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="BuildFromTemplate">
+      <typing text-keycode="66:1;85:0;73:0;76:0;68:0;70:1;82:0;79:0;77:0;84:1;69:0;77:0;80:0;76:0;65:0;84:0;69:0">BuildFromTemplate</typing>
+    </macro>
+    <macro name="selection null">
+      <action id="EditorCopy" />
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <action id="EditorPaste" />
+      <typing text-keycode="32:0;61:0;32:0;89:1;73:1;45:1;78:1;85:1;76:1;76:1;59:1">&amp;#x20;=&amp;#x20;YI_NULL:</typing>
+      <action id="EditorBackSpace" />
+      <typing text-keycode="59:0">;</typing>
+      <action id="EditorEnter" />
+    </macro>
+    <macro name="Insertifnotnull">
+      <action id="EditorCopy" />
+      <action id="EditorLineStart" />
+      <typing text-keycode="73:0;70:0;57:1">if(</typing>
+      <action id="EditorPaste" />
+      <typing text-keycode="48:1">)</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="91:1">{</typing>
+      <action id="EditorEnter" />
+      <action id="EditorLineEnd" />
+      <action id="EditorDown" />
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="93:1">}</typing>
+      <action id="EditorLineStart" />
+      <action id="EditorLineStart" />
+      <action id="EditorDown" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="ReformatCode" />
+    </macro>
+    <macro name="&lt;noname&gt;">
+      <action id="EditorPaste" />
+      <action id="EditorLineEnd" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="59:1">:</typing>
+      <action id="EditorEnter" />
+      <typing text-keycode="66:0;82:0;69:0;65:0;75:0;59:0">break;</typing>
+      <action id="EditorDown" />
+      <action id="EditorLineStart" />
+    </macro>
+    <macro name="InsertAEBlendModeCaseStatement">
+      <typing text-keycode="67:0;65:0;83:0;69:0;32:0;59:1;32:0">case&amp;#x20;:&amp;#x20;</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorBackSpace" />
+      <action id="EditorLeftWithSelection" />
+      <action id="EditorCut" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorPaste" />
+      <action id="EditorLineEnd" />
+      <action id="EditorPreviousWord" />
+      <action id="EditorEnter" />
+      <action id="EditorLineEnd" />
+      <action id="EditorEnter" />
+      <typing text-keycode="66:0;82:0;69:0;65:0;75:0;59:0">break;</typing>
+    </macro>
+    <macro name="ReplaceGetNodeWithUtilityGetNode">
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCut" />
+      <action id="EditorDelete" />
+      <action id="EditorDelete" />
+      <typing text-keycode="85:1;84:0;73:0;76:0;73:0;84:0;89:0;59:1;59:1">Utility::</typing>
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorPaste" />
+      <typing text-keycode="44:0;32:0">,&amp;#x20;</typing>
+    </macro>
+    <macro name="ReplacebOKFindNodeWithUtilityGetNode">
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorDelete" />
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCut" />
+      <action id="EditorDelete" />
+      <action id="EditorDelete" />
+      <typing text-keycode="85:1;84:0;73:0;76:0;73:0;84:0;89:0;59:1;59:1;71:1;69:0;84:0;78:1;79:0;68:0;69:0">Utility::GetNode</typing>
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorDelete" />
+      <action id="EditorRight" />
+      <action id="EditorPaste" />
+      <typing text-keycode="44:0;32:0">,&amp;#x20;</typing>
+      <action id="EditorNextWordWithSelection" />
+      <action id="EditorCut" />
+      <action id="EditorDelete" />
+      <action id="EditorDelete" />
+      <action id="EditorLineStart" />
+      <action id="EditorPaste" />
+      <typing text-keycode="32:0;61:0;32:0">&amp;#x20;=&amp;#x20;</typing>
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorNextWord" />
+      <action id="EditorLineEndWithSelection" />
+      <action id="EditorLeftWithSelection" />
+      <action id="EditorLeftWithSelection" />
+      <action id="EditorDelete" />
+    </macro>
+    <macro name="Delete and move down">
+      <action id="EditorDelete" />
+      <action id="EditorDown" />
+    </macro>
+  </component>
+</application>
