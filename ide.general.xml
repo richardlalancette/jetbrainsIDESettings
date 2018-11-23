@@ -9,5 +9,6 @@
     <entry key="ide.editor.tabs.open.at.the.end" value="true" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
     <entry key="ide.tooltip.initialDelay" value="199" />
+    <entry key="tabs.alphabetical" value="true" />
   </component>
 </application>
