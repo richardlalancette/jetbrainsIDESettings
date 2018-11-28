@@ -19,6 +19,7 @@
   <action id="Console.TableResult.EditValue">
     <keyboard-shortcut first-keystroke="alt enter" />
   </action>
+  <action id="ContextHelp" />
   <action id="DatabaseView.PropertiesAction">
     <keyboard-shortcut first-keystroke="enter" />
   </action>
@@ -59,6 +60,9 @@
   </action>
   <action id="EditorPreviousWordWithSelection">
     <keyboard-shortcut first-keystroke="shift meta left" />
+  </action>
+  <action id="FindNext">
+    <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
   <action id="FindUsages">
     <keyboard-shortcut first-keystroke="shift alt f" />
