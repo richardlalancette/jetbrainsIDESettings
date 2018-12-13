@@ -37,12 +37,6 @@
   <action id="DomCollectionControl.Edit" />
   <action id="DomElementsTreeView.GotoDomElementDeclarationAction" />
   <action id="EditSource" />
-  <action id="EditorDecreaseFontSize">
-    <mouse-shortcut keystroke="meta button142" />
-  </action>
-  <action id="EditorIncreaseFontSize">
-    <mouse-shortcut keystroke="meta button143" />
-  </action>
   <action id="EditorLineEnd">
     <keyboard-shortcut first-keystroke="end" />
   </action>
