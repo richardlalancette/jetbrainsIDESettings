@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping ext="aep" type="Native" />
       <mapping pattern="instrument_method" type="PLAIN_TEXT" />
+      <mapping ext="sdef" type="XML" />
     </extensionMap>
   </component>
 </application>
