@@ -3,8 +3,8 @@
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
       <mapping ext="aep" type="Native" />
-      <mapping pattern="Youitool" type="PLAIN_TEXT" />
       <mapping pattern="instrument_method" type="PLAIN_TEXT" />
+      <mapping ext="sdef" type="XML" />
     </extensionMap>
   </component>
 </application>
