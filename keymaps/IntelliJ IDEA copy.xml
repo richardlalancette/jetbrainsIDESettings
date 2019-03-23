@@ -1,4 +1,5 @@
 <keymap version="1" name="IntelliJ IDEA copy" parent="Mac OS X">
+  <action id="ActivateTerminalToolWindow" />
   <action id="AddToFavoritesPopup" />
   <action id="Annotate">
     <keyboard-shortcut first-keystroke="ctrl a" />
@@ -143,6 +144,9 @@
     <keyboard-shortcut first-keystroke="shift meta alt f10" />
   </action>
   <action id="ToggleBookmarkWithMnemonic" />
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="alt f12" />
+  </action>
   <action id="Vcs.ShowTabbedFileHistory">
     <keyboard-shortcut first-keystroke="shift meta alt h" />
   </action>
